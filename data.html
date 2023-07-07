@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Data</title>
+    <script>
+        // Function to refresh the page after a specified time interval
+        function autoRefresh() {
+            setTimeout(function() {
+                location.reload();
+            }, 5000); // Refresh every 5 seconds (adjust the interval as needed)
+        }
+
+        // Function to scroll the page to the bottom
+        function scrollToBottom() {
+            window.scrollTo(0, document.body.scrollHeight);
+        }
+
+        // Call the functions when the page loads
+        window.onload = function() {
+            autoRefresh();
+            scrollToBottom();
+        };
+    </script>
+</head>

